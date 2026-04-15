@@ -1,25 +1,19 @@
-# 🚀 AOOSTAR MACO (8945HS) Build Log
+# 🚀 AOOSTAR MACO (8945HS) Precision Build & Triple Boot Log
 
-Proyecto de ensamble, optimización térmica y configuración de Triple Boot para una Mini PC de alto rendimiento.
+Technical documentation for the assembly, thermal oiptimization, and multi-OS configuration of an AMD Ryzen 9 5900HX SFF system.
 
-## 🛠 Hardware Specs
-* **CPU:** AMD Ryzen 9 5900HX (8C/16T)
-* **RAM:** 32GB Crucial DDR4 3200MHz
-* **Storage 1:** 1TB Kingston NV3 (Linux Boot)
-* **Storage 2:** 2TB Kingston KC3000 (Windows/Deep Storage - Inbound)
-* **Thermal:** Noctua NT-H1
+## 🛠 Project Specifications
+* **CPU:** AMD Ryzen 9 5900HX (8C/16T) - *Zen 3 Architecture*
+* **Thermals:** Noctua NT-H1 Re-pasting + Custom M.2 Heatsink selection.
+* **Protection:** Koblenz BP-1400-I AVR (1400VA/700W) + iGoto Duplex Wall Socket upgrade.
 
-## ⚡ Infrastructure & Protection
-* **Regulator:** Koblenz BP-1400-I (1400VA/700W)
-* **Wall Socket:** iGoto Duplex (Upgrade pending for Saturday)
-* **Protection Logic:** AVR -> Mini PC & Monitor.
+## 📂 Phase 1: Infrastructure & Deployment Preparation
+- [x] **Boot Drive:** Kingston Exodia 128GB USB 3.2 (Flashed with Linux Mint 22 Cinnamon).
+- [x] **Power Integrity:** AVR acquired; Wall socket diagnosis completed.
+- [x] **Thermal Strategy:** Heatsink clearance analysis for SFF constraints.
 
-## 📅 Log de Actividades
-### [2026-04-14] - Fase de Adquisición
-- Compra de sistema de protección eléctrica y medios de instalación.
-- Prueba fallida de USB Toshiba (Descartada por velocidad inestable).
-- Compra de Kingston Exodia 128GB (USB 3.2).
-
-### [2026-04-16] - D-Day (Próximamente)
-- Unboxing y Re-pasting con Noctua.
-- Instalación de Linux Mint Cinnamon.
+## 📝 Engineering Log
+### 2026-04-14 | Setup & Environment
+- Initialized repository and hardware verification.
+- Verified Linux Mint ISO integrity and successfully flashed boot media via BalenaEtcher.
+- Finalized order for critical electrical protection components.
