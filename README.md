@@ -1,11 +1,11 @@
-# 🚀 High-Performance Mini PC Lab: Build Log (AOOSTAR MACO 8945HS Precision Build & Thermal Optimization)
+# 🚀 High-Performance Mini PC Lab (AOOSTAR MACO 8945HS Precision Build & Thermal Optimization)
 
 Detailed documentation of the construction, thermal optimization, and performance validation of the **AOOSTAR MACO** (Ryzen 9 8945HS).
 
 ## 🎯 Motivation and Purpose
-The goal of this project is to architect a compact yet uncompromising development and sandbox environment for other personal/professional projects and advanced technical experimentation.
+The goal of this project is to architect a compact yet uncompromising development and sandbox environment for personal and professional projects, and advanced technical experimentation.
 * **High-Performance Storage:** Implementing a reliable dual-NVMe array to support multi-OS workflows and high-speed data processing.
-* **Thermal Efficiency** Thermal Repasting of processor, and custom selection of dissipators for ideal cooling in small-form-factor (SFF) environments.
+* **Thermal Efficiency** Thermal repasting of processor, and custom selection of heatsink for ideal cooling in small-form-factor (SFF) environments.
 * **System Stability:** Validating the Ryzen 9 8945HS performance under sustained workloads and verifying peak SSD read/write speeds.
 * **Scalability:** Designing the system to remain relevant for several years, ensuring a clear path for hardware scalability as requirements evolve.
 
@@ -23,7 +23,6 @@ The goal of this project is to architect a compact yet uncompromising developmen
 * **Phase 1 (Hardware):** Complete thermal repasting, and the physical installation of the KC3000 2TB + heatsink.
 * **Phase 2 (OS installation):** Install Win11 in the KC3000.
 * **Phase 3 (Validation):** Perform processor stress test after repasting; also perform thermal stress tests to compare delta temperatures between both NVMe units.
-* **
 * **Phase 4 (Optimization):** Fine-tune fan curves in BIOS to balance acoustic comfort and performance.
 * **Future Expansion:** Potential RAM upgrade to 64GB or external eGPU integration via OCuLink.
 
