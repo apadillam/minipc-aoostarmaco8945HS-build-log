@@ -1,0 +1,13 @@
+# Obsidian specific (avoid uploading heavy local configs)
+.obsidian/workspace.json
+.obsidian/graph.json
+
+# System files (Windows & Linux junk files)
+.DS_Store
+Thumbs.db
+desktop.ini
+.swp
+
+ # Temporary files
+*.tmp
+*.log
