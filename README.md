@@ -1,4 +1,4 @@
-# 🚀 High-Performance Mini PC Lab: Build Log (AOOSTAR MACO 8945HS Precision Build & Thermal Optimization)
+# 🚀 High-Performance Mini PC Lab (AOOSTAR MACO 8945HS Precision Build & Thermal Optimization)
 
 Detailed documentation of the construction, thermal optimization, and performance validation of the **AOOSTAR MACO** (Ryzen 9 8945HS).
 
